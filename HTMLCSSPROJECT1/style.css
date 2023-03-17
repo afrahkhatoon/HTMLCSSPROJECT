@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./assets/bgimage.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 64px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 88px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+}
+
+button {
+    background-color: rgb(255, 22, 92);
+    color: white;
+    padding: 16px 40px;
+    border: none;
+    font-weight: bold;
+}
+
+a {
+    padding: 16px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.order {
+    padding: 8px 24px;
+}
+
+main {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.menu {
+    margin-top: 32px;
+}
+
+.scroll {
+    float: right;
+}
